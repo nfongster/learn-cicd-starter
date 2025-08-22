@@ -36,3 +36,8 @@ jobs:
 
       - name: Validate code style
         run: test -z $(go fmt ./...)
+
+      - name: Run static checks
+        uses: dominikh/staticcheck-action@v1
+        with:
+          version: "latest"
