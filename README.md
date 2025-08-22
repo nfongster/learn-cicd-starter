@@ -1,4 +1,4 @@
-![Test Status](https://github.com/nfongster/learn-cicd-starter/actions/workflows/ci.yml/badge.svg?branch=addtests&label=Test%20Status)
+![Test Status](https://github.com/nfongster/learn-cicd-starter/actions/workflows/ci.yml/badge.svg?branch=main&label=Test%20Status)
 
 # learn-cicd-starter (Notely)
 
