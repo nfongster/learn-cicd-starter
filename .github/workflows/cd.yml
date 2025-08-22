@@ -36,3 +36,6 @@ jobs:
 
       - name: 'Use gcloud CLI'
         run: 'gcloud info'
+
+      - name: Build Docker image
+        run: gcloud builds submit --tag us-central1-docker.pkg.dev/ivory-battery-469806-t7/notely-ar-repo/nfongster/notely:latest .
